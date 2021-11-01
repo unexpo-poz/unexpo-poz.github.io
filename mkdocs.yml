@@ -1,0 +1,34 @@
+site_name: UNEXPO
+site_description: Documentacion Unexpo Vicerrectorado Puerto Ordaz
+theme:
+    name: material
+    language: es
+    logo: assets/logo.png
+    favicon: assets/logo.svg
+    features:
+
+        - navigation.top
+    palette:
+        - media: "(prefers-color-scheme: light)" 
+          scheme: default
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: Switch to dark mode
+
+        - media: "(prefers-color-scheme: dark)" 
+          scheme: slate
+          toggle:
+              icon: material/toggle-switch
+              name: Switch to light mode
+
+copyright: "&copy; 2021 UNEXPO "
+extra:
+    generator: false
+    social:
+        - icon: fontawesome/brands/twitter
+          link: https://twitter.com/unexpo_poz
+        - icon: fontawesome/brands/github
+          link: https://github.com/unexpo-poz
+
+
+          
